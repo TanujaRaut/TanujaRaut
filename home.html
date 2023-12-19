@@ -31,9 +31,6 @@
         margin-bottom: 15px;
     }
     ul li{
-        list-style: circle;
-    }
-    ul li{
         font-family: 'Poppins', sans-serif;
         font-family: 'Roboto', sans-serif;
     }
@@ -41,24 +38,31 @@
         font-family: 'Poppins', sans-serif;
         font-family: 'Roboto', sans-serif; 
     }
+    #thumb li {
+        list-style-type: none;
 
+    }
+    #thumb li::before {
+        content: "👍";
+
+    }
 
     </style>
     
     <body>
-    <h2 class="learning" > Career Objective</h2>
-    <p>TO WORK IN ORGANIZATION WHERE I CAN LREAN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH  </p>
-    <h2 class="learning">Professional Summeray</h2>
-    <ul>
-        <li id="li">Having 5 years of experience in developing single page Web Applications using <span id="Angular 13" >Angular 13</span> ,HTML5,CSS3, Bootstrap 5, Java Script, ES6, TypeScript.</li>
-        <li id="li"> <p style="color: black; background-color: pink;" >Experience on working with version control system- GIT and GitHub. Experience working with JIRA for user stories and bug tracking. </li>
-        <li id="li">Strong Debigging & Troubleshooting code experience using Chrome Developer Tool.</li>
-        <li id="li">Wroking exposure in ID's like VS COde and Notepad++.</li>
-        <li id="li">Good working experience under Agile methodologies enviroment.</li>
-        <li id="li">Experiencein using Chrome Developer Tool for debugging and troubleshooting the code.</li>
-        <li id="li" >Knowledge of NodeJS. </li>
-        <li id="li"> Knowledge of API and Database.</li>
-        
-    </ul>
-</body>
-</html>
+        <h2 class="learning" > Career Objective</h2>
+        <p>TO WORK IN ORGANIZATION WHERE I CAN LREAN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH  </p>
+        <h2 class="learning">Professional Summeray</h2>
+        <ul id="thumb">
+            <li id="li">Having 5 years of experience in developing single page Web Applications using <span id="Angular 13" >Angular 13</span> ,HTML5,CSS3, Bootstrap 5, Java Script, ES6, TypeScript.</li>
+            <li id="li"> Experience on working with version control system- GIT and GitHub. Experience working with JIRA for user stories and bug tracking. </li>
+            <li id="li">Strong Debigging & Troubleshooting code experience using Chrome Developer Tool.</li>
+            <li id="li">Wroking exposure in ID's like VS COde and Notepad++.</li>
+            <li id="li">Good working experience under Agile methodologies enviroment.</li>
+            <li id="li">Experiencein using Chrome Developer Tool for debugging and troubleshooting the code.</li>
+            <li id="li" >Knowledge of NodeJS. </li>
+            <li id="li"> Knowledge of API and Database.</li>
+            
+        </ul>
+    </body>
+    </html>
