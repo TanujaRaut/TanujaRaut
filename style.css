@@ -1,0 +1,41 @@
+.maindiv{
+    width: 300px;
+}
+.box{
+    color: rgb(250, 252, 253);
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(93, 93, 192);
+}
+input{
+    border: 1px solid rgb(249, 247, 247);;
+    height: 20px;
+    background-color:rgb(249, 247, 247); 
+    border-color:rgb(225, 224, 224);
+    width:290px;
+}
+#area{
+    width:290px;
+    background-color:rgb(249, 247, 247); ;
+    border-color:rgb(225, 224, 224);
+}
+.emi{
+    margin-top: 15px;
+    line-height: 25px;
+}
+span{
+    color: rgb(251, 17, 17);
+}
+.reason{
+    margin-top: 15px;
+    line-height: 25px;
+}
+button{
+    color: rgb(114, 114, 114);
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+    float: right;
+}
+    
